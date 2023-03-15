@@ -6,7 +6,10 @@ namespace MiniOppgaveOrganTransplant
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Person Martin = new Person("Martin", 2);
+            Person Terje = new Person("Terje", 0);
+
+            Martin.GiveKidney(Terje);
         }
     }
 }
